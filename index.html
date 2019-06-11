@@ -2,16 +2,52 @@
 layout: default
 ---
 
-<div class="home">
+<div class="fh5co-loader"></div>
 
+<!-- <div class="home">
   <h1 class="page-heading">{{ site.title }}</h1>
 
   <ul class="post-list">
     {% for post in site.posts %}
       <li>
-        <!-- <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span> -->
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
         <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
       </li>
     {% endfor %}
   </ul>
-</div>
+</div> -->
+
+<div id="page">
+		<div id="fh5co-aside" style="background-image: url(images/image_1.jpg)">
+			<div class="overlay"></div>
+			<nav role="navigation">
+				<ul>
+					<li><a href="index.html"><i class="icon-home"></i></a></li>
+				</ul>
+			</nav>
+			<div class="featured">
+				<span>Bio</span>
+				<h2>I'm John Doe, Creative Director at <a href="http://freehtml5.co">FreeHTML5.co</a></h2>
+			</div>
+    </div>
+    
+    <div id="fh5co-main-content">
+        <div class="fh5co-post">
+          {% for post in site.posts %}
+          <div class="fh5co-entry padding">
+            <img src="images/project-1.jpg" alt="Free HTML5 Bootstrap Template by FreeHTML5.co">
+            <div>
+              <span class="fh5co-post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
+              <h2><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
+              <!-- <p>How two simple exercises changed my life</p> -->
+            </div>
+          </div>
+          {% endfor %}
+          <!-- <footer>
+            <div>
+            &copy; 2016 Free HTML5. All Rights Reserved. Designed by <a href="http://freehtml5.co" target="_blank">FreeHTML5.co</a> Demo Images: <a href="http://unsplash.com" target="_blank">Unsplash</a>
+            </div>
+          </footer> -->
+        </div>
+      </div>
+    </div>
