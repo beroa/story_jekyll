@@ -504,10 +504,11 @@ h1, h2, h3, h4, h5, h6, figure {
 				list-style: none;
 				a {
 					font-size: 14px;
+					
 					text-transform: uppercase;
 					position: relative;
-					height: 30px;
-					width: 30px;
+					height: 50px;
+					width: 50px;
 					display: block;
 					text-align: center;
 					line-height: 30px;
@@ -516,6 +517,11 @@ h1, h2, h3, h4, h5, h6, figure {
 					&:hover {
 						color: $brand-black;
 						background:rgba(255,255,255,1);
+					}
+					i {
+						font-size:2em;
+						position: relative;
+						top: 10px;
 					}
 				}
 			}
