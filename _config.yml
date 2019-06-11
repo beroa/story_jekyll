@@ -8,6 +8,8 @@ url: "" # the base hostname & protocol for your site
 twitter_username: username
 github_username: username
 
+author: Alan Berotti
+
 # Build settings
 markdown: kramdown
 # markdown_ext:  markdown,mkdown,mkdn,mkd,md
