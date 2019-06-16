@@ -4,6 +4,7 @@ title: "test1"
 image: "/images/image_2"
 date: 2019-06-11
 categories:
+author: alan 
 ---
 hi
 
