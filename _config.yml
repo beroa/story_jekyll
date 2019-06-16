@@ -1,8 +1,7 @@
 # Site settings
-title: Arctic Fox
+title: Alan Berotti
 email: 
-description: > # this means to ignore newlines until "baseurl:"
-  Jekyll Theme Demo
+description: This is a blog. Idk what to say but it was fun to make...
 baseurl: "/words" # the subpath of your site, e.g. /blog/
 url: "" # the base hostname & protocol for your site
 twitter_username: username
@@ -12,7 +11,6 @@ author: Alan Berotti
 
 # Build settings
 markdown: kramdown
-# markdown_ext:  markdown,mkdown,mkdn,mkd,md
 
 # redcarpet:
 #   extensions: ["tables", "autolink", "strikethrough", "space_after_headers", "fenced_code_blocks"]
