@@ -3,7 +3,7 @@ layout: post
 title: "Disgustingly Simple Sudoku Backtracking Visualizer"
 image: "/images/image_2"
 date: 2019-06-18
-categories: code
+categories:
 ---
 
 Let's look at the code available on geeksforgeeks that solves a sudoku puzzle using backtracking:

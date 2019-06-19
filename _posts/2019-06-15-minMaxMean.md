@@ -3,7 +3,7 @@ layout: post
 title: "Min Max and Mean with Python's Reduce"
 image: "/images/image_2"
 date: 2019-06-15
-categories: code
+categories:
 ---
 
 Here is how min max and mean functions look in python using loops:
