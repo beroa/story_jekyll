@@ -158,7 +158,7 @@ startGrid=[[3,0,6,5,0,8,4,0,0],
         [0,0,5,2,0,6,3,0,0]] 
 ```
 
-In the main function, we will make a shallow copy of the startGrid to perform all our operations on:
+In the main function, we will make a deep copy of the startGrid to perform all our operations on:
 
 ```python
 if __name__=="__main__": 
