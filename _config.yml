@@ -4,8 +4,6 @@ email:
 description: This is a blog. Idk what to say but it was fun to make...
 baseurl: "/words" # the subpath of your site, e.g. /blog/
 url: "" # the base hostname & protocol for your site
-twitter_username: username
-github_username: username
 
 author: Alan Berotti
 
